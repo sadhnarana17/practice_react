@@ -1,0 +1,64 @@
+[
+  {
+    "path": "/",
+    "page": "./home",
+    "chunk": "main"
+  },
+  {
+    "path": "/error",
+    "page": "./error",
+    "chunk": "main"
+  },
+  {
+    "path": "/why",
+    "page": "./why"
+  },
+  {
+    "path": "/what",
+    "page": "./what"
+  },
+  {
+    "path": "/how",
+    "page": "./how"
+  },
+  {
+    "path": "/who",
+    "page": "./who"
+  },
+  {
+    "path": "/career",
+    "page": "./career"
+  },
+  {
+    "path": "/contact",
+    "page": "./contact"
+  },
+  {
+    "path": "/thankyou",
+    "page": "./thankyou"
+  },
+  { 
+    "path": "/product-manager",
+    "page": "./jobDetails"
+  },
+  { 
+    "path": "/jr-product-manager",
+    "page": "./jobDetails"
+  },
+  { 
+    "path": "/designer",
+    "page": "./jobDetails"
+  },
+  { 
+    "path": "/mkt-assistant",
+    "page": "./jobDetails"
+  },
+  { 
+    "path": "/php-developer",
+    "page": "./jobDetails"
+  },
+  { 
+    "path": "/react-native-developer",
+    "page": "./jobDetails"
+  }
+]

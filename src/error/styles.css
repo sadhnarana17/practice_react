@@ -1,0 +1,56 @@
+.container {
+  padding-top: 110px;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, rgb(241, 247, 248) 0%, rgb(239, 246, 247) 12.5%, rgb(237, 245, 246) 25%, rgb(235, 243, 245) 37.5%, rgb(232, 242, 244) 50%, rgb(228, 240, 242) 75%, rgb(224, 237, 239) 100%);
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 0 15px;
+}
+
+.errorCode {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.title {
+  color: #2d2f30;
+  font-size: 24px;
+  letter-spacing: -0.4px;
+  font-weight: 300;
+}
+
+.subtitle {
+  font-size: 16px;
+  max-width: 400px;
+}
+
+.button {
+  padding: 16px 24px;
+  background-color: #0e3ff2;
+  border: none;
+  color: #fff;
+  font-family: 'sofia-pro', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto 70px;
+}
+
+.listTitle {
+  font-size: 16px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.listItem a {
+  color: #0e3ff2;
+  text-decoration: none;
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "image": "/images/jobimage1.jpg",
+    "show": "no"
+  },
+  {
+    "image": "/images/jobimage2.jpg",
+    "show": "no"
+  },
+  {
+    "image": "/images/jobimage3.jpg",
+    "show": "yes"
+  },
+  {
+    "image": "/images/jobimage4.jpg",
+    "show": "no"
+  }
+]

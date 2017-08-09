@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Title</title>
+</head>
+<body>
+<form name='websiteContactForm' action='/thankyou' data-netlify='true' data-netlify-honeypot='hiddenField'>
+  <input type='hidden' name='hiddenField' />
+  <input type='hidden' name='formName' value='websiteContactForm' />
+  <h1 className={s.title}>{title}</h1>
+  <p className={s.subtitle}>{subtitle}</p>
+  <h4 className={s.sectionTitle}>{rangeTitle}</h4>
+  <input name='sliderValue' type='hidden' value={this.state.rangeValue} />
+  <Slider className={s.slider} value={this.state.rangeValue} onChange={this.rangeChange} min={0} max={5} step={1} format={this.formatter} labels={this.currentLabels} />
+  <div className={s.separator} />
+  <h4 className={s.sectionTitle}>{servicesTitle}</h4>
+  <div className={s.servicesContainer}>
+    <input type='hidden' value='false' name='appDevelopmentServices' />
+    <input className={s.checkbox} id='appDevelopment' name='appDevelopmentServices' value='true' type='checkbox' />
+    <label className={s.checkboxLabel} htmlFor='appDevelopment'>{service1}</label>
+    <input type='hidden' value='false' name='webDevelopmentServices' />
+    <input className={s.checkbox} id='webDevelopment' name='webDevelopmentServices' value='true' type='checkbox' />
+    <label className={s.checkboxLabel} htmlFor='webDevelopment'>{service2}</label>
+    <input type='hidden' value='false' name='productStrategyServices' />
+    <input className={s.checkbox} id='productStrategy' name='productStrategyServices' value='true' type='checkbox' />
+    <label className={s.checkboxLabel} htmlFor='productStrategy'>{service3}</label>
+    <input type='hidden' value='false' name='brandIdentityServices' />
+    <input className={s.checkbox} id='brandIdentity' name='brandIdentityServices' value='true' type='checkbox' />
+    <label className={s.checkboxLabel} htmlFor='brandIdentity'>{service4}</label>
+    <input type='hidden' value='false' name='marketingServices' />
+    <input className={s.checkbox} id='marketing' name='marketingServices' value='true' type='checkbox' />
+    <label className={s.checkboxLabel} htmlFor='marketing'>{service5}</label>
+    <input type='hidden' value='false' name='otherServices' />
+    <input className={s.checkbox} id='other' name='otherServices' value='true' type='checkbox' />
+    <label className={s.checkboxLabel} htmlFor='other'>{service6}</label>
+  </div>
+  <div className={s.separator} />
+  <div className={`${s.formContainer} ${this.state.timeSelected ? 'timeSelected' : ''}`}>
+  <input name='firstName' placeholder='First Name' className={s.formInput} type='text' />
+  <input name='lastName' placeholder='Last Name' className={s.formInput} type='text' />
+  <input name='phone' required placeholder='Phone number' className={s.formInput} type='text' />
+  <Select placeholder='Best time to contact' searchable={false} name='contactTime' value={this.state.dropdownValue} options={this.options} className={s.dropdown} onChange={this.onTimeSelect}/>
+    <textarea name='description' placeholder='Tell us more (optional)' className={s.textArea} />
+    <button type='submit' className={s.submit}>Submit</button>
+    </div>
+</form>
+</body>
+</html>

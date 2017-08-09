@@ -1,0 +1,29 @@
+.container {
+  background-color: #f1f7f8;
+  padding: 15% 20px;
+}
+
+.title {
+  color: #2d2f30;
+  font-size: 80px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+}
+
+@media screen and (max-width: 601px) {
+  .title {
+    font-size: 48px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+}

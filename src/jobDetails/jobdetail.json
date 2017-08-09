@@ -1,0 +1,533 @@
+{
+   "product-manager": {
+        "title": "Product Manager",
+        "mentorby": "Head of Product",
+        "businessarea": "Product & User Experience",
+        "location": "Shoreditch, London",
+        "salary": "£28,000 - £35,000",
+        "funstuff": [
+            {
+                "text": "Immersing yourself across multiple products in various domains, no two projects are the same"
+            },
+            {
+                "text": "Constructing outcome focused product roadmaps whilst owning the delivering of them"
+            },
+            {
+                "text": "Gathering user requirements through conventional and novel approaches such as gamestorming"
+            },
+            {
+                "text": "Working closely with the UI/UX team to turn needs into wireframes then fully fledged designs"
+            },
+            {
+                "text": "Liaising with the Project Manager to ensure the requirements are clear to the development team"
+            },
+            {
+                "text": "Identifying real solutions to challenging problems using lean and agile techniques"
+            },
+            {
+                "text": "Acting as the product evangelist to ensure all internal/external stakeholders are engaged"
+            }
+        ],
+        "whatneed": [
+            {
+                "text": "A curious mind with a passion for learning and a keen interest in tech"
+            },
+            {
+                "text": "Strategic approach backed by an analytical attention to the details and underlying messages"
+            },
+            {
+                "text": "A proven track record of growing a user base and not just maintaining one"
+            },
+            {
+                "text": "An ability to identify, interpret and manage user requests, needs and expectations"
+            },
+            {
+                "text": "Relentless drive to lead a vision not just a product, with a track record of this behaviour"
+            },
+            {
+                "text": "Experience working in an agile environment using Scrum and Kanban methodologies"
+            },
+            {
+                "text": "Knowledge of multi variant testing with demonstrated results when acting on the data"
+            },
+            {
+                "text": "Understanding of UX principles with expertise in customer journey mapping"
+            },
+            {
+                "text": "An approachable facilitator who can communicate and engage with wide audiences"
+            }
+        ],
+        "whylove": [
+            {
+                "text": "You’ll actually be part of something amazing (we build great startups!)"
+            },
+            {
+                "text": "Mentorship is a given so you'll actually learn something"
+            },
+            {
+                "text": "Imagine more opportunities than you can shake a stick at and that's about right"
+            },
+            {
+                "text": "You have full autonomy over your efforts (so give yourself a real challenge)"
+            },
+            {
+                "text": "No one at ucreate is too ‘senior’ to give their time or speak with you"
+            },
+            {
+                "text": "We listen to your ideas and empower you to impact the direction of real products"
+            },
+            {
+                "text": "Satisfaction is guaranteed if you work as hard as your CV says you do"
+            }
+        ]
+    },
+    "jr-product-manager": {
+        "title": "Junior Product Manager",
+        "mentorby": "Head of Product",
+        "businessarea": "Product & User Experience",
+        "location": "London, UK",
+        "salary": "£22,000 - £25,000",
+        "funstuff": [
+            {
+                "text": "Managing a team of exceedingly good developers to ensure the delivery of high quality products"
+            },
+            {
+                "text": "Immersing yourself across multiple products in various domains, no two projects are the same"
+            },
+            {
+                "text": "Liaising with clients to ensure they are fully informed on all decisions you are making"
+            },
+            {
+                "text": "Writing user stories through conventional techniques such as behaviour driven development"
+            },
+            {
+                "text": "Working closely with the Product Manager to control the SPRINT plan and determine cadence"
+            },
+            {
+                "text": "Identifying real solutions to real problems using lean and agile techniques"
+            },
+            {
+                "text": "Communicating all of the above to internal/external stakeholders in an engaging fashion"
+            }
+        ],
+        "whatneed": [
+            {
+                "text": "A curious mind with a passion for learning and a keen interest in tech"
+            },
+            {
+                "text": "A curious mind with a passion for learning and a keen interest in tech"
+            },
+            {
+                "text": "Experience working and liaising with a globally diverse set of stakeholders"
+            },
+            {
+                "text": "An ability to efficiently manage resources and track multiple projects simultaneously"
+            },
+            {
+                "text": "Strong organisational skills with an ability to manage a busy workload and deliver to deadlines"
+            },
+            {
+                "text": "An ability to identify, interpret and manage stakeholder requests and expectations"
+            },
+            {
+                "text": "Strategic approach backed by an analytical attention to the details and underlying messages"
+            },
+            {
+                "text": "Experience working in an agile environment using Scrum and Kanban methodologies"
+            },
+            {
+                "text": "An approachable facilitator who can communicate and engage with wide audiences"
+            },
+            {
+                "text": "Risk management experience to minimise and mitigate against harmful events"
+            }
+        ],
+        "whylove": [
+            {
+                "text": "You’ll actually be part of something amazing (we build great startups!)"
+            },
+            {
+                "text": "You’ll literally be part of something amazing (we build great startups!)"
+            },
+            {
+                "text": "Mentorship is a given so you'll actually learn something through hands on experience"
+            },
+            {
+                "text": "Imagine more opportunities than you can shake a stick at and that's about right"
+            },
+            {
+                "text": "You have full autonomy over your efforts (so give yourself a real challenge)"
+            },
+            {
+                "text": "No one at ucreate is too ‘senior’ to give their time or speak with you"
+            },
+            {
+                "text": "We listen to your ideas and empower you to make an impact on the direction of a real product"
+            },
+            {
+                "text": "Satisfaction is guaranteed if you work as hard as your CV says you do"
+            }
+        ]
+    },
+    "designer": {
+        "title": "UX/UI Designer",
+        "mentorby": "Head of Product",
+        "businessarea": "Product & User Experience",
+        "location": "Shoreditch, London",
+        "salary": "£25,000 - £35,000",
+        "funstuff": [
+            {
+                "text": "Managing a team of exceedingly good developers to ensure the delivery of high quality products"
+            },
+            {
+                "text": "Taking ownership of products and processes to develop and improve the user journey"
+            },
+            {
+                "text": "Planning and running collaborative workshops alongside clients to understand real user needs"
+            },
+            {
+                "text": "Developing information architecture, sitemaps and content recommendations"
+            },
+            {
+                "text": "Establishing UX/UI design best practices and processes to ensure consistently high quality"
+            },
+            {
+                "text": "Crafting beautifully executed designs across multiple products in a variety of industries"
+            },
+            {
+                "text": "Collaborating with multiple stakeholders to define and implement innovative solutions"
+            },
+            {
+                "text": "Taking control of the product direction, visuals and experience through a variety of techniques"
+            },
+            {
+                "text": "Shaping the culture of a fast growing company which is always pushing the boundaries"
+            }
+        ],
+        "whatneed": [
+            {
+                "text": "A curious mind with a passion for learning and a keen interest in tech"
+            },
+            {
+                "text": "A track record of delivering best-in-class design solutions with clear rationale behind them"
+            },
+            {
+                "text": "Knowledge of creating wireframes, storyboards, user flows, process flows and sitemaps"
+            },
+            {
+                "text": "An ability to interpret, follow and create design guidelines and principles for multiple platforms"
+            },
+            {
+                "text": "Excellent visual design skills with sensitivity to user-system interaction"
+            },
+            {
+                "text": "Confidence when dealing with customer and internal feedback in an empathetic manner"
+            },
+            {
+                "text": "Resourcefulness to cope with difficulties and provide originality when under pressure"
+            },
+            {
+                "text": "An approachable facilitator who can communicate and engage with wide audiences"
+            },
+            {
+                "text": "Experience working in an agile environment using Scrum and Kanban methodologies"
+            },
+            {
+                "text": "Skilled in Sketch and proficient in Adobe tools such as PhotoShop & Illustrator"
+            }
+        ],
+        "whylove": [
+            {
+                "text": "You’ll actually be part of something amazing (we build great startups!)"
+            },
+            {
+                "text": "You’ll actually be part of something amazing (we build great startups!)"
+            },
+            {
+                "text": "Mentorship is a given so you'll actually learn something"
+            },
+            {
+                "text": "Imagine more opportunities than you can shake a stick at and that's about right"
+            },
+            {
+                "text": "You have full autonomy over your efforts (so give yourself a real challenge)"
+            },
+            {
+                "text": "No one at ucreate is too ‘senior’ to give their time or speak with you"
+            },
+            {
+                "text": "We listen to your ideas and empower you to impact the direction of real products"
+            },
+            {
+                "text": "Satisfaction is guaranteed if you work as hard as your CV says you do"
+            }
+        ]
+    },
+    "mkt-assistant": {
+        "title": "Marketing Assistant",
+        "mentorby": "Head of Product",
+        "businessarea": "Sales & Marketing",
+        "location": "Shoreditch, London",
+        "salary": "£18,000 - £22,000",
+        "funstuff": [
+            {
+                "text": "Curating and delivering content across all our social platforms"
+            },
+            {
+                "text": "Striking up conversations with our following in a personal and engaging fashion"
+            },
+            {
+                "text": "Structuring wider campaigns and coordinating their release alongside our design team"
+            },
+            {
+                "text": "Building and managing relationships with our wider network to help support our founders"
+            },
+            {
+                "text": "Improving our digital footprint in line with our SEO and growth strategies"
+            },
+            {
+                "text": "Increasing the exposure our founders receive to assist them with their traction efforts"
+            },
+            {
+                "text": "Liaising with the product team to ensure all efforts are aligned to a single strategy"
+            }
+        ],
+        "whatneed": [
+            {
+                "text": "A curious mind with a passion for learning and a keen interest in tech"
+            },
+            {
+                "text": "A curious mind with a passion for learning"
+            },
+            {
+                "text": "Good knowledge of common social media platforms like Twitter, Instagram, LinkedIn etc."
+            },
+            {
+                "text": "Strong copywriting and editing skills, including experience of writing for digital content"
+            },
+            {
+                "text": "Strategic approach backed by an analytical attention to the details"
+            },
+            {
+                "text": "Understanding of basic search engine optimisation principles"
+            },
+            {
+                "text": "Strong organisational skills with an ability to manage a busy workload and deliver to deadlines"
+            },
+            {
+                "text": "Relentless drive to lead a vision not just another campaign"
+            },
+            {
+                "text": "An approachable facilitator who can engage and grow large audiences"
+            }
+        ],
+        "whylove": [
+            {
+                "text": "You’ll actually be part of something amazing (we build great startups!)"
+            },
+            {
+                "text": "You’ll literally be part of something amazing (we build great startups!)"
+            },
+            {
+                "text": "Mentorship is a given so you'll actually learn something through hands on experience"
+            },
+            {
+                "text": "Imagine more opportunities than you can shake a stick at and that's about right"
+            },
+            {
+                "text": "You have full autonomy over your efforts (so give yourself a real challenge)"
+            },
+            {
+                "text": "No one at ucreate is too ‘senior’ to give their time or speak with you"
+            },
+            {
+                "text": "We listen to your ideas and empower you to impact the direction of real products"
+            },
+            {
+                "text": "Satisfaction is guaranteed if you work as hard as your CV says you do"
+            }
+        ]
+    },
+    "php-developer": {
+        "title": "Principal PHP Developer",
+        "mentorby": "CTO",
+        "businessarea": "Technology",
+        "location": "Kraków, Poland or Chandigarh, India",
+        "salary": "TBC",
+        "funstuff": [
+            {
+                "text": "Curating and delivering content across all our social platforms"
+            },
+            {
+                "text": "Executing full lifecycle software development in a self-sufficient manner"
+            },
+            {
+                "text": "Writing well designed, testable, efficient code that surpasses industry standards"
+            },
+            {
+                "text": "Producing specifications to determine feature feasibility alongside the wider development team"
+            },
+            {
+                "text": "Reviewing code for bugs and defects including security loopholes within the logical structures"
+            },
+            {
+                "text": "Guiding and coaching other Software Engineers to efficiently develop robust code"
+            },
+            {
+                "text": "Debugging issues in the production environment and fixing them promptly"
+            },
+            {
+                "text": "Providing technically valid and cost effective solutions to the founder"
+            },
+            {
+                "text": "Presenting and talking about your work at conferences, meetups and hackathons"
+            },
+            {
+                "text": "Taking responsibility and looking for viable for solutions rather than blaming others"
+            }
+        ],
+        "whatneed": [
+            {
+                "text": "5+ years experience in PHP with 2-3 years knowledge of mainstream PHP frameworks such as Laravel, CakePHP, Code igniter or Symphony"
+            },
+            {
+                "text": "Experience with Heroku,Github and error tracking software (we use Rollbar)"
+            },
+            {
+                "text": "Expert in relational databases and database design (MySQL and/or Postages)"
+            },
+            {
+                "text": "Basics of web security (ssl, xss, cors, csrf, sql injection)"
+            },
+            {
+                "text": "Front end technologies (any of jQuery, react, angular)"
+            },
+            {
+                "text": "General familiarity with Agile Dev Environment, CI, MVPs, Lean, Kanban"
+            },
+            {
+                "text": "Knowledge of HTTP protocol and experience working with and creating web APIs"
+            },
+            {
+                "text": "Fluent in English with good verbal and written communication"
+            }
+        ],
+        "whylove": [
+            {
+                "text": "You’ll actually be part of something amazing (we build great startups!)"
+            },
+            {
+                "text": "You’ll literally be part of something amazing (we build great startups!)"
+            },
+            {
+                "text": "Mentorship is a given so you'll actually learn something through hands on experience"
+            },
+            {
+                "text": "Imagine more opportunities than you can shake a stick at and that's about right"
+            },
+            {
+                "text": "You have full autonomy over your efforts (so give yourself a real challenge)"
+            },
+            {
+                "text": "No one at ucreate is too ‘senior’ to give their time or speak with you"
+            },
+            {
+                "text": "We listen to your ideas and empower you to impact the direction of real products"
+            },
+            {
+                "text": "Satisfaction is guaranteed if you work as hard as your CV says you do"
+            }
+        ]
+    },
+    "react-native-developer": {
+        "title": "React Developer",
+        "mentorby": "CTO",
+        "businessarea": "Technology",
+        "location": "Kraków, Poland or Chandigarh, India",
+        "salary": "TBC",
+        "funstuff": [
+            {
+                "text": "Curating and delivering content across all our social platforms"
+            },
+            {
+                "text": "Executing full lifecycle software development in a self-sufficient manner"
+            },
+            {
+                "text": "Writing well designed, testable, efficient code that surpasses industry standards"
+            },
+            {
+                "text": "Producing specifications to determine feature feasibility alongside the wider development team"
+            },
+            {
+                "text": "Developing unit tests for all code bases to maintain standards and quality across all projects"
+            },
+            {
+                "text": "Developing dynamic and intuitive application interfaces that deliver real value to the end user"
+            },
+            {
+                "text": "Debugging issues in the production environment and fixing them promptly"
+            },
+            {
+                "text": "Providing technically valid and cost effective solutions to the founder"
+            },
+            {
+                "text": "Working alongside a specialist team (Designers, Product Owners, Project Managers, Developers)"
+            },
+            {
+                "text": "Taking responsibility and looking for viable for solutions rather than blaming others"
+            }
+        ],
+        "whatneed": [
+            {
+                "text": "Experience building SPAs using React"
+            },
+            {
+                "text": "An understanding of Heroku, Github, code reviews and error tracking software (we use Rollbar)"
+            },
+            {
+                "text": "A thorough knowledge of  unit testing and continuous integration techniques"
+            },
+            {
+                "text": "Experience with build tools and module bundlers (webpack/gulp/grunt/…)"
+            },
+            {
+                "text": "Previous experience consuming RESTful APIs would be an advantage"
+            },
+            {
+                "text": "Experience delivering responsive UX/UI across all platforms and devices"
+            },
+            {
+                "text": "Knowledge of JavaScript, TypeScript, ES6, ReactJS, Redux, HTML5, CSS3, Webpack, Babel"
+            },
+            {
+                "text": "Fluent in English with good verbal and written communication"
+            }
+        ],
+        "whylove": [
+            {
+                "text": "You’ll actually be part of something amazing (we build great startups!)"
+            },
+            {
+                "text": "You’ll literally be part of something amazing (we build great startups!)"
+            },
+            {
+                "text": "Mentorship is a given so you'll actually learn something through hands on experience"
+            },
+            {
+                "text": "Imagine more opportunities than you can shake a stick at and that's about right"
+            },
+            {
+                "text": "You have full autonomy over your efforts (so give yourself a real challenge)"
+            },
+            {
+                "text": "No one at ucreate is too ‘senior’ to give their time or speak with you"
+            },
+            {
+                "text": "We listen to your ideas and empower you to impact the direction of real products"
+            },
+            {
+                "text": "Satisfaction is guaranteed if you work as hard as your CV says you do"
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+[
+	{
+		"name" : "Product Manager",
+		"address1" : "London, UK",
+		"address2" : "",
+		"linkto" : "product-manager"
+	},
+	{
+		"name" : "Junior Product Manager",
+		"address1" : "London, UK",
+		"address2" : "",
+		"linkto" : "jr-product-manager"
+	},
+	{
+		"name" : "UI Designer",
+		"address1" : "London, UK",
+		"address2" : "",
+		"linkto" : "designer"
+	},
+	{
+		"name" : "Marketing Assistant",
+		"address1" : "London, UK",
+		"address2" : "",
+		"linkto" : "mkt-assistant"
+	},
+	{
+		"name": "PHP Developer",
+		"address1": "Kraków, Poland",
+		"address2": "Chandigarh, India",
+		"linkto" : "php-developer"
+	},
+	{
+		"name" : "React Native Developer",
+		"address1" : "Kraków, Poland",
+		"address2" : "Chandigarh, India",
+		"linkto" : "react-native-developer"
+	}
+]

@@ -1,0 +1,91 @@
+.ucTopContainer {
+  height: calc(100vh - 175px);
+  background-image: url(../../public/images/landing_header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #3c4b6b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+}
+
+.title.title {
+  font-family: 'sofia-pro', sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.title .colorized {
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 900;
+  color: #0edbf2;
+}
+
+.subtitle {
+  font-family: 'museo-sans', sans-serif !important;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.button {
+  background-color: #0e3ff2;
+  color: #fff;
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: bold;
+  border: none;
+  padding: 16px 30px;
+  font-size: 20px;
+  transition: all 0.25s linear;
+  margin-top: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:focus,
+.button:active {
+  outline: 0;
+  box-shadow: 0 0 10px 0 rgba(14, 219, 242, 0.5);
+}
+
+.button:hover {
+  background-color: #0c34c4;
+}
+
+@media screen and (max-width: 901px) {
+  .title.title {
+    font-size: 50px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .ucTopContainer {
+    min-height: 320px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .title.title {
+    font-size: 26px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .ucTopContainer {
+    min-height: 260px;
+  }
+
+  .button {
+    font-size: 15px;
+  }
+}

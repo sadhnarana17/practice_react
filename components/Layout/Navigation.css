@@ -1,0 +1,100 @@
+.link.link {
+  color: #8d9696;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'sofia-pro', sans-serif;
+  font-size: 16px;
+  padding: 0 18px;
+  transition: color 0.25s linear;
+}
+
+.link.link:hover {
+  color: #333;
+}
+
+:global(.activeLink).link.link {
+  color: #0e3ff2;
+  position: relative;
+}
+
+:global(.activeLink).link.link::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #0e3ff2;
+}
+
+:global(.mdl-layout__header-row .mdl-navigation) {
+  height: 60px;
+}
+
+:global(.mdl-layout__header-row) {
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.toggleNav {
+  display: none;
+  width: 42px;
+  height: 32px;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.toggleNav:hover {
+  background-color: #ddd;
+}
+
+.toggleNav:focus,
+.toggleNav:active {
+  outline: 0;
+}
+
+.toggleNav span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #888;
+}
+
+.toggleNav span + span {
+  margin-top: 4px;
+}
+
+.mobileNav {
+  position: absolute;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  top: 60px;
+  right: 0;
+  width: 100%;
+  padding-left: 0;
+  margin: 0;
+  background-color: #fff;
+  transition: height 0.2s linear;
+}
+
+@media screen and (max-width: 901px) {
+  :global(.mdl-navigation) {
+    display: none;
+  }
+
+  :global(.nav-active).mobileNav {
+    height: 281px;
+  }
+
+  .toggleNav {
+    display: block;
+  }
+}

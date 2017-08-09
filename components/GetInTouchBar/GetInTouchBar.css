@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f7f8;
+  height: 250px;
+}
+
+.title {
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  color: #0e3ff2;
+  margin-top: 0;
+}
+
+.button {
+  padding: 16px 84px;
+  background-color: #0e3ff2;
+  border: none;
+  color: #fff;
+  font-family: 'sofia-pro', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s linear;
+}
+
+.button:focus,
+.button:active {
+  outline: 0;
+  box-shadow: 0 0 10px 0 rgba(14, 219, 242, 0.5);
+}
+
+.button:hover {
+  background-color: #0c34c4;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    height: 180px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .button {
+    padding: 12px 60px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,21 @@
+:global(.global h1),
+:global(.global h2),
+:global(.global h3),
+:global(.global h4),
+:global(.global h5),
+:global(.global h6) {
+  font-family: 'sofia-pro', sans-serif;
+}
+
+:global(.global p),
+:global(.global span),
+:global(.global button),
+:global(.global li),
+:global(.global input) {
+  font-family: 'museo-sans', sans-serif;
+  text-decoration: none;
+}
+
+:global(.global a) {
+  text-decoration: none;
+}

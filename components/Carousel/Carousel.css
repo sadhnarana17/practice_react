@@ -1,0 +1,23 @@
+.carousel :global(.slick-dots) {
+  bottom: 40px;
+}
+
+.carousel :global(.slick-slide) {
+  height: auto;
+}
+
+.carousel :global(.slick-dots li button::before) {
+  font-size: 13px !important;
+  color: #fff;
+}
+
+@media screen and (max-width: 601px) {
+  .carousel :global(.slick-dots) {
+    bottom: 10px;
+  }
+
+  .carousel :global(.slick-dots li button::before) {
+    font-size: 18px !important;
+    color: #fff;
+  }
+}

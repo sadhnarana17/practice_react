@@ -1,0 +1,44 @@
+.container {
+  padding: 64px 215px;
+}
+
+.containerMaxWidth {
+  max-width: 1330px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 48px;
+  color: #2d2f30;
+  font-weight: bold;
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+.container.carrerTextSection {
+  background: #f1f7f8 !important;
+}
+
+.text {
+  margin: 0;
+  font-size: 20px;
+  line-height: 32px;
+  color: #2d2f30;
+}
+
+@media screen and (max-width: 1441px) {
+  .container {
+    padding: 5% 10%;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .title {
+    font-size: 34px;
+  }
+
+  .text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

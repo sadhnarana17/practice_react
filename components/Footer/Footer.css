@@ -1,0 +1,120 @@
+.footer {
+  display: flex;
+  padding: 70px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom right, rgb(70, 73, 74) 0%, rgb(73, 76, 78) 12.5%, rgb(76, 79, 81) 25%, rgb(79, 82, 84) 37.5%, rgb(82, 85, 87) 50%, rgb(88, 92, 94) 75%, rgb(94, 99, 101) 100%);
+}
+
+.column {
+  width: 25%;
+  padding-right: 50px;
+  box-sizing: border-box;
+}
+
+.column ul,
+.column a,
+.column h3,
+.column p,
+.column span {
+  color: #fff;
+  font-family: 'museo-sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.column ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.column ul + ul {
+  margin-top: 50px;
+}
+
+.column li {
+  margin-bottom: 3px;
+}
+
+.column a {
+  text-decoration: none;
+}
+
+.column .title {
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 24px;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.column .input {
+  display: block;
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 16px;
+  color: #555;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.column .input:focus {
+  outline: 0;
+}
+
+.column .button {
+  color: #fff;
+  background-color: #2d2f30;
+  font-weight: 700;
+  font-family: 'sofia-pro', sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid #2d2f30;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.67;
+  user-select: none;
+  border-radius: 0;
+}
+
+.column .button:active,
+.column .button:focus {
+  outline: 0;
+}
+
+:global(.input-invalid) {
+  border: 2px solid #6b0505;
+}
+
+:global(.inputErrorMessage.inputErrorMessage) {
+  background-color: #6b0505;
+  color: #fff;
+  font-size: 13px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 991px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .footer {
+    padding: 30px;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .column + .column {
+    margin-top: 20px;
+  }
+}

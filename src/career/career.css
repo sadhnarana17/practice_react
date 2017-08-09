@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f1f7f8;
+}
+
+.careergallery img {
+  width: 25%;
+}
+
+.careergallery {
+  width: 100%;
+}
+
+.positionlist {
+  padding: 0 10%;
+  box-sizing: border-box;
+  max-width: 1330px;
+  margin: 30px auto;
+}
+
+.position {
+  height: 152px;
+  width: 32%;
+  border: 1px solid #2d2f30;
+  background-color: #f1f7f8;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 15px 2% 15px 0;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.position:hover {
+  box-shadow: 4px 4px 0 0 #2d2f30;
+}
+
+.position:nth-child(3n) {
+  margin-right: 0;
+}
+
+.position h3 {
+  color: #0e3ff2;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.position p {
+  color: #2d2f30;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.position .moreinfo {
+  color: #2d2f30;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'sofia-pro', sans-serif;
+}
+
+.ucreatecountpanel {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.countblock {
+  width: auto;
+  padding: 0 39px;
+  text-align: center;
+  display: inline-block;
+}
+
+.countblock .count {
+  color: #0e3ff2;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 58px;
+  text-align: center;
+  font-family: 'sofia-pro', sans-serif;
+}
+
+.countblock .info {
+  color: #2d2f30;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.cbutton {
+  padding: 16px 24px;
+  background-color: #0e3ff2;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s linear;
+  text-decoration: none;
+  margin: 30px auto 0;
+}
+
+.cbutton:focus,
+.cbutton:active {
+  outline: 0;
+  box-shadow: 0 0 10px 0 rgba(14, 219, 242, 0.5);
+}
+
+.cbutton:hover {
+  background-color: #0c34c4;
+}
+
+h3.sectionTitle {
+  text-align: center;
+  color: #2d2f30;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  width: 550px;
+  margin: 0 auto 40px;
+  font-family: 'sofia-pro', sans-serif;
+}
+
+.formContainer {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.formInput {
+  box-sizing: border-box;
+  background-color: #e9eff0;
+  padding: 15px;
+  font-size: 20px;
+  color: #2d2f30;
+  margin-bottom: 16px;
+  border: 1px solid #e9eff0;
+  width: 100%;
+}
+
+.formInput:focus {
+  border: 1px solid #0e3ff2;
+  background-color: #fff;
+  outline: 0;
+}
+
+/* WebKit browsers */
+
+.formInput:focus::-webkit-input-placeholder {
+  color: transparent;
+  opacity: 0;
+}
+
+/* Mozilla Firefox 4 to 18 */
+
+.formInput:focus:-moz-placeholder {
+  color: transparent;
+  opacity: 0;
+}
+
+.formInput:focus::-moz-placeholder {
+  color: transparent;
+  opacity: 0;
+}
+
+.formInput:focus:-ms-input-placeholder {
+  color: transparent;
+  opacity: 0;
+}
+
+.formInput:not(output):-moz-ui-invalid {
+  box-shadow: 0 0 0 0 red;
+}
+
+.formInput:not(output):-moz-ui-invalid:-moz-focusring {
+  box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+}
+
+.submit {
+  padding: 16px 24px;
+  background-color: #0e3ff2;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s linear;
+  display: block;
+  margin: 0 auto;
+}
+
+.submit:focus,
+.submit:active {
+  outline: 0;
+  box-shadow: 0 0 10px 0 rgba(14, 219, 242, 0.5);
+}
+
+::-webkit-input-placeholder {
+  color: #8d9696;
+}
+
+:-moz-placeholder {
+  color: #8d9696;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #8d9696;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #8d9696;
+}
+
+::-ms-input-placeholder {
+  color: #8d9696;
+}
+
+button.close {
+  color: #0e3ff2;
+  font-size: 16px;
+  line-height: 19px;
+  background: none;
+  border: 0;
+  float: right;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+.fileContainer {
+  overflow: hidden;
+  position: relative;
+}
+
+.fileContainer [type=file] {
+  cursor: inherit;
+  display: block;
+  filter: alpha(opacity=0);
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  text-align: right;
+  top: 0;
+}
+
+.fileContainer {
+  background: #f1f7f8;
+  float: left;
+  color: #0e3ff2;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 0 16px 32px 16px;
+}
+
+.fileContainer [type=file] {
+  cursor: pointer;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@media screen and (max-width: 1279px) {
+  .countblock {
+    padding: 0 40px;
+  }
+
+  .position {
+    height: 160px;
+  }
+
+  .positionlist {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .position:nth-child(3n),
+  .position:nth-child(2n) {
+    margin-right: 0%;
+  }
+
+  .position {
+    width: 49%;
+  }
+
+  .position:nth-child(2n+1) {
+    margin-right: 2%;
+  }
+
+  .countblock {
+    padding-top: 0 30px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .hiddenmobile {
+    display: none;
+  }
+
+  .careergallery img {
+    width: 100%;
+  }
+
+  .position {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .countblock {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .countblock {
+    padding: 0 5px;
+    width: 50%;
+    box-sizing: border-box;
+  }
+
+  .countblock .count {
+    font-size: 30px;
+  }
+
+  .countblock .info {
+    font-size: 18px;
+  }
+
+  .cbutton {
+    font-size: 16px;
+  }
+
+  .mycvPopup {
+    width: 85%;
+    padding: 50px 5%;
+  }
+
+  .positionlist {
+    padding: 0;
+  }
+
+  h3.sectionTitle {
+    width: 90%;
+    margin-top: 0 auto 40px;
+  }
+}

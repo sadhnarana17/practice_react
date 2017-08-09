@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.jobcontainer {
+  padding: 64px 215px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #f1f7f8 none repeat scroll 0 0;
+  float: left;
+}
+
+.backlink {
+  color: #2d2f30;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  margin-bottom: 15px;
+  margin-top: 0;
+  float: left;
+  text-decoration: none;
+}
+
+.positionhd {
+  color: #0e3ff2;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 58px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  float: left;
+  width: 100%;
+}
+
+.positioninfo {
+  float: left;
+  width: 100%;
+}
+
+.positionwrap {
+  float: left;
+  width: 100%;
+}
+
+.positionwrap p {
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+  color: #2d2f30;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.positioninfo .block {
+  float: left;
+  padding-right: 30px;
+  max-width: 25%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.positioninfo .block h3 {
+  color: #2d2f30;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.positioninfo .block p {
+  color: #2d2f30;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
+.positionwrap h3 {
+  color: #2d2f30;
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.positionwrap ul {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  color: #2d2f30;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: justify;
+  padding-left: 16px;
+}
+
+.positionwrap ul li {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.positionwrap p.boltspacer {
+  margin: 10px 0 30px;
+}
+
+.btnrow {
+  float: left;
+  width: 100%;
+  padding: 24px 0 0;
+  text-align: center;
+}
+
+.btnrow p {
+  margin-bottom: 0;
+  color: #2d2f30;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1441px) {
+  .jobcontainer {
+    padding: 5% 10%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .positioninfo .block {
+    max-width: 50%;
+    width: 50%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .positioninfo .block {
+    max-width: 100%;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .positionhd {
+    font-size: 34px;
+  }
+}

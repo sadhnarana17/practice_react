@@ -1,0 +1,362 @@
+.title {
+  margin: 215px 0 20px;
+  color: #2d2f30;
+  font-size: 80px;
+  line-height: 96px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.subtitle {
+  color: #2d2f30;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.sectionTitle {
+  text-align: center;
+  color: #2d2f30;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 40px;
+}
+
+.formInput:not(output):-moz-ui-invalid {
+  box-shadow: 0 0 0 0 red;
+}
+
+.formInput:not(output):-moz-ui-invalid:-moz-focusring {
+  box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+}
+
+.checkbox {
+  display: none;
+}
+
+.checkbox:checked + .checkboxLabel {
+  color: #fff;
+  background: #0e3ff2;
+}
+
+.checkboxLabel {
+  color: #2d2f30;
+  font-family: 'sofia-pro', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px 24px;
+  border: 1px solid #2d2f30;
+  flex-basis: 185px;
+  margin-bottom: 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.15s linear;
+}
+
+.servicesContainer {
+  max-width: 768px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.separator {
+  height: 20px;
+  margin: 45px 0;
+  background-image: url(../../public/images/bolt.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.formContainer {
+  max-width: 700px;
+  margin: 0 auto 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.formInput {
+  box-sizing: border-box;
+  flex-basis: 49%;
+  background-color: #e9eff0;
+  padding: 15px;
+  font-family: 'museo-sans', sans-serif;
+  font-size: 20px;
+  color: #2d2f30;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+}
+
+.formInput:focus {
+  border-color: #0e3ff2;
+  outline: 0;
+}
+
+.textArea {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #fff;
+  background-color: #e9eff0;
+  padding: 15px;
+  font-family: 'museo-sans', sans-serif;
+  font-size: 20px;
+  color: #2d2f30;
+  margin-bottom: 70px;
+  resize: none;
+  height: 150px;
+}
+
+.textArea:focus {
+  outline: 0;
+  border: 1px solid #0e3ff2;
+}
+
+.submit {
+  padding: 16px 24px;
+  background-color: #0e3ff2;
+  border: none;
+  color: #fff;
+  font-family: 'sofia-pro', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s linear;
+  display: block;
+  margin: 0 auto;
+}
+
+.submit:focus,
+.submit:active {
+  outline: 0;
+  box-shadow: 0 0 10px 0 rgba(14, 219, 242, 0.5);
+}
+
+::-webkit-input-placeholder {
+  color: #8d9696;
+}
+
+:-moz-placeholder {
+  color: #8d9696;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #8d9696;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #8d9696;
+}
+
+::-ms-input-placeholder {
+  color: #8d9696;
+}
+
+.slider {
+  max-width: 560px;
+  margin: 0 auto 145px;
+  box-shadow: none;
+}
+
+.slider:global(.rangeslider__fill) {
+  background-color: #dfe5e6;
+  box-shadow: none;
+}
+
+.slider:global(.rangeslider__label) {
+  color: #2d2f30;
+  font-size: 20px;
+  font-family: 'museo-sans', sans-serif;
+  font-weight: 700;
+  transform: translate(calc(-50% + 16px), 0);
+  margin-top: 18px;
+  cursor: default;
+}
+
+.slider:global(.rangeslider__tooltip) {
+  height: auto;
+  font-family: 'museo-sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  padding: 10px 16px;
+  background-color: #0e3ff2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 75px;
+  opacity: 1;
+  box-sizing: border-box;
+  width: 200px;
+  left: -84px;
+  cursor: default;
+}
+
+.slider:global(.rangeslider__tooltip::after) {
+  display: none;
+}
+
+.slider:global(.rangeslider__tooltip) span {
+  margin: 0;
+  line-height: normal;
+}
+
+.slider:global(.rangeslider__handle) {
+  box-shadow: none;
+  background-color: #0e3ff2;
+}
+
+.slider:global(.rangeslider__handle::after) {
+  display: none;
+}
+
+.dropdown {
+  box-sizing: border-box;
+  flex-basis: 49%;
+  background-color: #e9eff0;
+  font-family: 'museo-sans', sans-serif;
+  font-size: 20px;
+  color: #2d2f30;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+}
+
+.dropdown:global(.Select-control) {
+  border: none;
+  border-radius: 0;
+  background-color: #e9eff0;
+  padding: 15px;
+}
+
+.dropdown:global(.Select-placeholder),
+.dropdown:global(.Select-control .Select-value) {
+  display: flex;
+  align-items: center;
+}
+
+:global(.is-focused).dropdown {
+  outline: 0;
+  border: 1px solid #0e3ff2;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  background-image: url(../../public/images/spinner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: spin 2s linear infinite;
+}
+
+@media screen and (max-width: 901px) {
+  .title {
+    margin-top: 60px;
+    font-size: 55px;
+    line-height: 55px;
+  }
+
+  .subtitle {
+    font-size: 19px;
+    margin-bottom: 35px;
+  }
+
+  .sectionTitle {
+    font-size: 18px;
+  }
+
+  .separator {
+    margin: 30px 0;
+  }
+
+  .checkboxLabel {
+    flex-basis: 35%;
+  }
+
+  .servicesContainer {
+    justify-content: space-around;
+  }
+
+  .formContainer {
+    padding: 0 10px;
+  }
+
+  .slider {
+    max-width: none;
+    margin: 0 100px 145px;
+  }
+
+  .slider:global(.rangeslider__label) {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .title {
+    margin-top: 40px;
+    font-size: 34px;
+    line-height: 28px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .sectionTitle {
+    padding: 0 10px;
+  }
+
+  .servicesContainer {
+    padding: 0 10px;
+  }
+
+  .checkboxLabel {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .formInput {
+    flex-basis: 100%;
+  }
+
+  .textArea {
+    margin-bottom: 40px;
+  }
+
+  .formContainer {
+    margin-bottom: 40px;
+  }
+
+  .slider:global(.rangeslider__tooltip) {
+    font-size: 16px;
+  }
+
+  .slider:global(.rangeslider__label) {
+    font-size: 14px;
+    min-width: 130px;
+    text-align: center;
+  }
+
+  .dropdown {
+    flex-basis: 100%;
+  }
+}
